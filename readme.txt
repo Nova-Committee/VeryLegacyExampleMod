@@ -13,14 +13,14 @@
 4.	Get a copy of fernflower.jar and place it into C:/Users/${userName}/.gradle/caches/minecraft/
 	Apparently, auto-downloading fernflower was actually implemented in ForgeGradle 1.0, but somehow it won't work for 2.6
   
-4.	Import the project using JDK 8.
+5.	Import the project using JDK 8.
 
-5.	Make sure Settings / Build, Execution, Deployment > Build Tools > Gradle is using JDK 8.
+6.	Make sure Settings / Build, Execution, Deployment > Build Tools > Gradle is using JDK 8.
 
-6.	From the IDE's Gradle tab, click Reimport All Gradle Projects.
+7.	From the IDE's Gradle tab, click Reimport All Gradle Projects.
 
-7.	Switch to JDK 7
+8.	Switch to JDK 7
 
-8.	From the IDE's Gradle tab, run Tasks > forgegrade > setupDecompWorkspace to install the Forge workspace
+9.	From the IDE's Gradle tab, run Tasks > forgegrade > setupDecompWorkspace to install the Forge workspace
 
-9.	To build the project, run Tasks > build > build using JDK 8.
+10.	To build the project, run Tasks > build > build using JDK 8.
