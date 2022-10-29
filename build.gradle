@@ -38,6 +38,7 @@ group = "committee.nova.examplemod" // http://maven.apache.org/guides/mini/guide
 archivesBaseName = "ExampleMod-1.6.4"
 
 sourceCompatibility = targetCompatibility = 6
+compileJava.options.encoding = "UTF-8"
 
 minecraft {
 	version = "1.6.4-9.11.1.964"
