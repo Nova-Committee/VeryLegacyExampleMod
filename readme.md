@@ -11,7 +11,7 @@
 3.	Get and install some form of JDK 7.
 
 4.	Get a copy of fernflower.jar and place it into C:/Users/${userName}/.gradle/caches/minecraft/
-	Apparently, auto-downloading fernflower was actually implemented in ForgeGradle 1.0, but somehow it won't work for 2.6
+	Apparently, auto-downloading fernflower was actually implemented in ForgeGradle 1.0, but somehow it won't work for 2.6 and make sure you also delete the 		fernflower.jar in the project as well
   
 5.	Import the project using JDK 8.
 
