@@ -40,6 +40,11 @@ archivesBaseName = "ExampleMod-1.6.4"
 sourceCompatibility = targetCompatibility = 6
 compileJava.options.encoding = "UTF-8"
 
+configurations {
+    shade
+    compile.extendsFrom shade
+}
+
 minecraft {
 	version = "1.6.4-9.11.1.964"
 	replaceIn 'src/main/java/committee/nova/examplemod/ExampleMod.java'
@@ -54,7 +59,33 @@ repositories {
 
 dependencies {
 
+  shade('org.spongepowered:mixin:0.7.11-SNAPSHOT') {
+        // Mixin includes a lot of dependencies that are too up-to-date
+        exclude module: 'launchwrapper'
+        exclude module: 'guava'
+        exclude module: 'gson'
+        exclude module: 'commons-io'
+    }
+    shade('org.apache.logging.log4j:log4j-core:2.3.2')
+    shade('org.apache.logging.log4j:log4j-api:2.3.2')
+
 }
+
+jar {
+    manifest {
+        attributes([
+                'FMLCorePluginContainsFMLMod': 'true',
+                "FMLCorePlugin"              : "committee.nova.vlmixinbootstrap.core.VLMixinBootstrapCore",
+                "TweakOrder"                 : -2147483648,
+                "ForceLoadAsMod"             : true
+        ])
+    }
+
+    configurations.shade.copyRecursive().setTransitive(false).each { artifact ->
+        from (zipTree(artifact)) {
+            exclude "META-INF/*.RSA", "META-INF/*.SF", "META-INF/*.MF"
+        }
+    }
 
 processResources {
 	// this will ensure that this task is redone when the versions change.
@@ -81,4 +112,14 @@ configurations.all{
 	resolutionStrategy{
 		force 'net.sourceforge.argo:argo:3.4'
 	}
+}
+
+task deobfJar(type: Jar) {
+    from sourceSets.main.output
+
+    classifier = 'dev'
+}
+
+artifacts {
+    archives deobfJar
 }
