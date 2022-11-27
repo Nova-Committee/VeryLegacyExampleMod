@@ -1,3 +1,5 @@
+# How To install
+
 1.	Download and extract VeryLegacyExampleMod into your project folder:
 	https://github.com/Nova-Committee/VeryLegacyExampleMod
 	Do NOT also extract a Forge source MDK.
@@ -24,3 +26,5 @@
 9.	From the IDE's Gradle tab, run Tasks > forgegrade > setupDecompWorkspace to install the Forge workspace
 
 10.	To build the project, run Tasks > build > build using JDK 8.
+
+11.     include the .main folder in the project from the "add configurations" menu in order for Minecraft to start up
