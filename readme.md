@@ -28,3 +28,15 @@
 10.	To build the project, run Tasks > build > build using JDK 8.
 
 11.     include the .main folder in the project from the "add configurations" menu in order for Minecraft to start up
+
+
+## Making the mod
+This itself is not a modding tutorial so if you would like to learn 1.6.4 modding you have to learn it yourself buut here are some great tutorials that we reccomend in order:
+
+[PersistentPixels](https://www.youtube.com/watch?v=SM9xRAAjUPw&list=PLPuEDzUkbdN660wJhwf2PB_0eAX-oaRMb&index=2)
+
+[EsvDefcon](https://www.youtube.com/playlist?list=PLXS6DF7GdLvImonSLAo8HVSPwwCUhSS4d)
+
+[ScratchForFun](https://www.youtube.com/@ScratchForFun/search?query=1.6.4%20Modding%20Tutorials)
+
+for moddeling in 1.6.4 you need techne for the tutorial but you can no longer install it now as the severs are down for the installer to work in order to install it now you need to go to:http://minecraftbizarrecrafters.weebly.com/techne-download.html

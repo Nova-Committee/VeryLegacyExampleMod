@@ -5,6 +5,12 @@
         "description": "Example legacy forge mod.",
         "version": "${version}",
         "mcversion": "1.6.4",
-        "authorList": ["Author"]
+        "url": "addyoururl.invalid",
+        "updateUrl": "addyourupdatefile.json",
+        "authorList": ["Author"],
+        "credits": "Brandonbr1 for this credits,
+        "logoFile": "examplemodlogo.png",
+        "screenshots": [],
+        "dependencies": []
     }
 ]
