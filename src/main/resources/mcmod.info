@@ -8,7 +8,7 @@
         "url": "addyoururl.invalid",
         "updateUrl": "addyourupdatefile.json",
         "authorList": ["Author"],
-        "credits": "Brandonbr1 for this credits,
+        "credits": "Brandonbr1 for this credits",
         "logoFile": "examplemodlogo.png",
         "screenshots": [],
         "dependencies": []

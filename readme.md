@@ -31,7 +31,7 @@
 
 
 ## Making the mod
-This itself is not a modding tutorial so if you would like to learn 1.6.4 modding you have to learn it yourself buut here are some great tutorials that we reccomend in order:
+This itself is not a modding tutorial so if you would like to learn 1.6.4 modding you have to learn it yourself but here are some great tutorials that we reccomend in order:
 
 [PersistentPixels](https://www.youtube.com/watch?v=SM9xRAAjUPw&list=PLPuEDzUkbdN660wJhwf2PB_0eAX-oaRMb&index=2)
 
