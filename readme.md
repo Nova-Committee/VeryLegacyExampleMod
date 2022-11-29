@@ -31,7 +31,7 @@
 
 
 ## Making the mod
-This itself is not a modding tutorial so if you would like to learn 1.6.4 modding you have to learn it yourself but here are some great tutorials that we reccomend in order:
+This itself is not a modding tutorial so if you would like to learn 1.6.4 modding you have to learn it yourself but here are some great tutorials that we recommend in order:
 
 [PersistentPixels](https://www.youtube.com/watch?v=SM9xRAAjUPw&list=PLPuEDzUkbdN660wJhwf2PB_0eAX-oaRMb&index=2)
 
@@ -39,4 +39,4 @@ This itself is not a modding tutorial so if you would like to learn 1.6.4 moddin
 
 [ScratchForFun](https://www.youtube.com/@ScratchForFun/search?query=1.6.4%20Modding%20Tutorials)
 
-for moddeling in 1.6.4 you need techne for the tutorial but you can no longer install it now as the severs are down for the installer to work in order to install it now you need to go to:http://minecraftbizarrecrafters.weebly.com/techne-download.html
+for modeling in 1.6.4 you need techne for the tutorial but you can no longer install it now as the severs are down for the installer to work in order to install it now you need to go to:http://minecraftbizarrecrafters.weebly.com/techne-download.html
