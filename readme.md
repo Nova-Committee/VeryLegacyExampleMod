@@ -1,3 +1,5 @@
+# Use [VeryLegacyExampleMod-Voldeloom](https://github.com/Nova-Committee/VeryLegacyExampleMod-Voldeloom) instead
+
 # How To install
 
 1.	Download and extract VeryLegacyExampleMod into your project folder:
